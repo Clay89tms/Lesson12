@@ -68,6 +68,9 @@ public class Main12ALL {
                     ex.printStackTrace();
                 }
             }
+            if (b == true){
+                scanner.close();
+            }
         } while (b == false);
     }
 }
